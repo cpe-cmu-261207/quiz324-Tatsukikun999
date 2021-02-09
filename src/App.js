@@ -48,10 +48,10 @@ function App() {
         <p className="is-4 title has-text-centered">Pet List</p>
         {/* sample table */}
         <ItemTable name={"Coco"} gender={"Male"} age={"5"} />
-        <p>Your name and code here</p>
+        <p>Traiphob Srimanee 620610788</p>
       </div>
     </div>
   );
 }
-
+function sendToAnalytics({ name, gender, age }) {}
 export default App;
